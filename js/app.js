@@ -44,30 +44,57 @@ let seattle = {
 console.log(seattle);
 
 
-let tokyo = {
-  name: 'tokyo',
-  hours:['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm'],
-  mincust: 3,
-  maxcust: 24,
-  avgsold: 1.2,
-cookiesPerHour:[],
 
-getCustPerHour: function(){
-  this.custPerHour = randomcust(this.mincust, this.maxcust);
-},
+// let tokyo = {
+//   name: 'tokyo',
+//   hours:['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm'],
+//   mincust: 3,
+//   maxcust: 24,
+//   avgsold: 1.2,
+// cookiesPerHour:[],
 
-soldPerHour: function(){
-  // this.soldPerHour = randomcust(this.avgsold);
+// getCustPerHour: function(){
+//   this.custPerHour = randomcust(this.mincust, this.maxcust);
+// },
 
-  for(let i = 0; i<this.hours.length; i++){
-    this.getCustPerHour();
-    let cookiesThisHour = Math.floor (this.avgsold * this.custPerHour);
-    this.cookiesPerHour.push(cookiesThisHour);
-  }
+// soldPerHour: function(){
+//   // this.soldPerHour = randomcust(this.avgsold);
 
-}
+//   for(let i = 0; i<this.hours.length; i++){
+//     this.getCustPerHour();
+//     let cookiesThisHour = Math.floor (this.avgsold * this.custPerHour);
+//     this.cookiesPerHour.push(cookiesThisHour);
+//   }
 
-};
+// }
+
+// };
+
+// let tokyo = {
+//   name: 'tokyo',
+//   hours:['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm'],
+//   mincust: 3,
+//   maxcust: 24,
+//   avgsold: 1.2,
+// cookiesPerHour:[],
+
+// getCustPerHour: function(){
+//   this.custPerHour = randomcust(this.mincust, this.maxcust);
+// },
+
+// soldPerHour: function(){
+//   // this.soldPerHour = randomcust(this.avgsold);
+
+//   for(let i = 0; i<this.hours.length; i++){
+//     this.getCustPerHour();
+//     let cookiesThisHour = Math.floor (this.avgsold * this.custPerHour);
+//     this.cookiesPerHour.push(cookiesThisHour);
+//   }
+
+// }
+
+// };
+>>>>>>> main
 
 
 // let dubai = { 
